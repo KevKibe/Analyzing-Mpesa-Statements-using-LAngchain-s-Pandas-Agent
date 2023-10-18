@@ -4,7 +4,7 @@ This is a streamlit app for analyzing Mpesa Statements using Langchain Pandas AI
 - **[pdf_processor.py](https://github.com/KevKibe/Analyzing-Mpesa-Statements-using-Langchain-Pandas-Agent/pdf_processor.py)** - contains the class that extracts tables from the pdf and joins them using the Tabula library.
 - **[text_preprocessing.py](https://github.com/KevKibe/Analyzing-Mpesa-Statements-using-Langchain-Pandas-Agent/text_preprocessing.py)** - contains code to preprocess the tables extracted.
 - **[app.py](https://github.com/KevKibe/Analyzing-Mpesa-Statements-using-Langchain-Pandas-Agent/app.py)** - contains code to execute the streamlit app.
-- 
+  
 ## Installation
 - Clone the repository `git clone https://github.com/KevKibe/Analyzing-Mpesa-Statements-using-Langchain-Pandas-Agent.git`
 - Install requirements `pip install -r requirements.txt`
