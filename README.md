@@ -10,3 +10,5 @@ This is a streamlit app for analyzing Mpesa Statements using Langchain Pandas Ag
 - Enter your OpenAI API Key in the sidebar.
 - Upload your M-Pesa Statement.
 - Enter a query in the provided text area and click the "generate" button.
+
+## Screenshots
