@@ -1,0 +1,7 @@
+streamlit
+tabula-py
+pandas
+langchain
+python-dotenv
+openai
+tabulate
