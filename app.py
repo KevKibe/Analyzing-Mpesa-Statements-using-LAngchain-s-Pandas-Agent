@@ -1,5 +1,5 @@
 import streamlit as st
-from pandas_agent import agent
+from pandas_agent import Agent
 from pdf_processor import PDFProcessor
 from text_preprocessing import DataframeProcessor
 import os  
@@ -24,5 +24,6 @@ if data is not None:
 query = st.text_area("Query")
 query = query.lower()
 if st.button("generate", type="primary"):
-    response = agent(processed_df,openai_api_key,query)
+    agent = Agent(processed_df,openai_api_key)
+    response = agent.agent(query)
     st.write(response)

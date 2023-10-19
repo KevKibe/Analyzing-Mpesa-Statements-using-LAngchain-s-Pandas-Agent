@@ -5,3 +5,4 @@ langchain
 python-dotenv
 openai
 tabulate
+openjdk-11-jre
